@@ -14,7 +14,7 @@ const routes: Routes = [{
     },
     {
       path: 'list',
-      component: AuthorListComponent
+      component: AuthorListComponent //nueva ruta para el modulo
     },
     {
       path: ':id',

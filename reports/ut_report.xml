@@ -1,41 +1,41 @@
 <testExecutions version="1">
   <file path="src/app/author/author-list/author-list.component.spec.ts">
-    <testCase name="AuthorListComponent should have an img element " duration="57"/>
+    <testCase name="AuthorListComponent should have an img element " duration="53"/>
     <testCase name="AuthorListComponent should create" duration="9"/>
   </file>
-  <file path="src/app/app.component.spec.ts">
-    <testCase name="AppComponent should have as title 'book-list'" duration="26"/>
-    <testCase name="AppComponent should create the app" duration="9"/>
-  </file>
-  <file path="src/app/book/book-detail/book-detail.component.spec.ts">
-    <testCase name="BookDetailComponent should have an img element" duration="20"/>
-    <testCase name="BookDetailComponent should create" duration="7"/>
-  </file>
-  <file path="src/app/author/author-detail/author-detail.component.spec.ts">
-    <testCase name="AuthorDetailComponent should have an img element" duration="15"/>
-    <testCase name="AuthorDetailComponent should create" duration="6"/>
-  </file>
-  <file path="src/app/editorial/editorial.service.spec.ts">
-    <testCase name="Service: Editorial should ..." duration="4"/>
-  </file>
   <file path="src/app/author/author-create/author-create.component.spec.ts">
-    <testCase name="AuthorCreateComponent should create" duration="36"/>
-  </file>
-  <file path="src/app/interceptors/http-error-interceptor.service.spec.ts">
-    <testCase name="Service: HttpErrorInterceptor should ..." duration="4"/>
+    <testCase name="AuthorCreateComponent should create" duration="46"/>
   </file>
   <file path="src/app/editorial/editorial-list/editorial-list.component.spec.ts">
-    <testCase name="EditorialListComponent should have a p element " duration="11"/>
-    <testCase name="EditorialListComponent should create" duration="8"/>
+    <testCase name="EditorialListComponent should create" duration="16"/>
+    <testCase name="EditorialListComponent should have a p element " duration="10"/>
   </file>
-  <file path="src/app/book/book.service.spec.ts">
-    <testCase name="Service: Book should ..." duration="3"/>
+  <file path="src/app/book/book-detail/book-detail.component.spec.ts">
+    <testCase name="BookDetailComponent should create" duration="19"/>
+    <testCase name="BookDetailComponent should have an img element" duration="11"/>
+  </file>
+  <file path="src/app/app.component.spec.ts">
+    <testCase name="AppComponent should have as title 'book-list'" duration="23"/>
+    <testCase name="AppComponent should create the app" duration="7"/>
+  </file>
+  <file path="src/app/author/author-detail/author-detail.component.spec.ts">
+    <testCase name="AuthorDetailComponent should create" duration="14"/>
+    <testCase name="AuthorDetailComponent should have an img element" duration="10"/>
   </file>
   <file path="src/app/author/author.service.spec.ts">
     <testCase name="Service: Author should ..." duration="2"/>
   </file>
+  <file path="src/app/editorial/editorial.service.spec.ts">
+    <testCase name="Service: Editorial should ..." duration="5"/>
+  </file>
+  <file path="src/app/interceptors/http-error-interceptor.service.spec.ts">
+    <testCase name="Service: HttpErrorInterceptor should ..." duration="5"/>
+  </file>
   <file path="src/app/book/book-list/book-list.component.spec.ts">
     <testCase name="BookListComponent should create" duration="9"/>
-    <testCase name="BookListComponent should have an img element " duration="6"/>
+    <testCase name="BookListComponent should have an img element " duration="8"/>
+  </file>
+  <file path="src/app/book/book.service.spec.ts">
+    <testCase name="Service: Book should ..." duration="2"/>
   </file>
 </testExecutions>

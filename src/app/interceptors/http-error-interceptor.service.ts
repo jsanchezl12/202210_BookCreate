@@ -16,6 +16,7 @@ export class HttpErrorInterceptorService extends HttpErrorResponse {
     return next.handle(request)
       .pipe(
         catchError((httpErrorResponse: HttpErrorResponse) => {
+          console.log(httpErrorResponse);
           let errorMesagge = '';
           let errorType = '';
 
@@ -27,7 +28,7 @@ export class HttpErrorInterceptorService extends HttpErrorResponse {
             if (httpErrorResponse.status === 0) {
               errorMesagge = "No hay conexión con el servidor";
             } else {
-              errorMesagge = `${httpErrorResponse.status}: ${httpErrorResponse.error.error}`;
+              errorMesagge = `${httpErrorResponse.status}: ${httpErrorResponse.message}`;
             }
             this.toastrService.error(errorMesagge, errorType, { closeButton: true });
           }

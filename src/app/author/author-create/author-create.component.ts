@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { Component, OnInit } from '@angular/core'; // se agrega para el formulario
+import { FormBuilder, FormGroup, Validators } from '@angular/forms'; // se agrega para el formulario
 import { ToastrService } from 'ngx-toastr';
 
 import { Author } from "../author"
@@ -12,7 +12,7 @@ import { AuthorService } from '../author.service';
 })
 export class AuthorCreateComponent implements OnInit {
 
-  authorForm!: FormGroup;
+  authorForm!: FormGroup; //form
 
   constructor(
     private formBuilder: FormBuilder,

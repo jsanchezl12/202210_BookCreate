@@ -12,8 +12,9 @@ import { ReactiveFormsModule } from '@angular/forms';
     CommonModule,
     RouterModule,
     AuthorRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule // nuevo modulo de forms
   ],
+  //declarar nuevo componente
   declarations: [AuthorListComponent, AuthorDetailComponent, AuthorCreateComponent]
 })
 export class AuthorModule { }
